@@ -19,7 +19,7 @@ jar {
 }
 
 bootRepackage {
-    mainClass = 'com.cmpe273.controller.SpringConfig'
+    mainClass = 'com.cmpe273.config.SpringConfig'
 }
 
 repositories {
@@ -33,7 +33,7 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web:1.2.1.RELEASE")
- 	compile("org.mongodb:mongo-java-driver:3.0.0") 
+    compile("org.mongodb:mongodb-driver:3.0.0-beta3")
  
 }
 
