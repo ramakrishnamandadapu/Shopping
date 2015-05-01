@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.cmpe273.controller")
+@ComponentScan(basePackages={ "com.cmpe273.controller","com.cmpe273.dao"})
 public class SpringConfig {
 
 	public static void main(String[] args) {
