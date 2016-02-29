@@ -11,8 +11,8 @@ import org.bson.Document;
  */
 public class DatabaseConnection {
 
-    private final String dbUser = "273user";
-    private final String dbPswd = "273user";
+    private final String dbUser = "";
+    private final String dbPswd = "";
     private final String dbURI = "ds055680.mongolab.com:55680/273project";
     private final String dbName = "273project";
     private MongoClient client;
